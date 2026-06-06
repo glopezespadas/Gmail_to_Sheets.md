@@ -2,7 +2,7 @@
 
 # Gmail to Google Sheets Automation
 
-## Qué hace
+## Qué hace 
 Cada email que llega a Gmail se guarda automáticamente en Google Sheets con:
 - From (quién envía)
 - Subject (asunto)

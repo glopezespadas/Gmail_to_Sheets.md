@@ -1,20 +1,30 @@
-# Sheets to Gmail Automation
+# Google Sheets to Gmail Automation
 
-## Qué hace
-Cuando agregas una fila manualmente en Google Sheets, 
-Make.com automáticamente te envía un email de notificación.
+## Overview
+Automated notification system that triggers email alerts whenever new rows are added to a Google Sheets spreadsheet.
 
-## Cómo funciona
-1. Tú agregas fila en Google Sheets
-2. Make.com lo detecta (trigger: Watch rows)
-3. Envía email automáticamente
-4. Notificación instantánea
+## What It Does
+When you manually add a row to Google Sheets, Make.com automatically sends you an email notification containing:
+- Row added confirmation
+- Timestamp of entry
+- Data summary
 
-## Resultado
-Sistema de notificaciones automático. 
-Cada fila nueva = Email de confirmación.
+## How It Works
+1. You add a new row to Google Sheets
+2. Make.com detects the change (trigger: Watch rows)
+3. Automatically sends email notification
+4. Instant confirmation of entry
+
+## Results
+✅ Automatic email notifications
+✅ Real-time data confirmation
+✅ No manual alert setup needed
 
 ## Tech Stack
-- Google Sheets (fuente de datos)
-- Make.com (automatización)
-- Gmail (notificación)
+- **Data Source**: Google Sheets
+- **Automation**: Make.com
+- **Notification**: Gmail API
+- **Integration**: REST APIs
+
+## Status
+✅ Phase 1: Complete - Notifications working

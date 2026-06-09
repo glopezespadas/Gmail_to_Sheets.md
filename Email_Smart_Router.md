@@ -1,16 +1,27 @@
 # Email Smart Router
 
-## Qué hace
-Sistema que recibe emails y los guarda automáticamente en Google Sheets.
+## Overview
+Automated email categorization system using Make.com 
+that sorts incoming emails by category and logs them to Google Sheets.
 
-## Cómo funciona
-1. Gmail recibe email
-2. Make.com lo detecta
-3. Agrega fila en Google Sheets con: From, Subject, Date
+## Features
+- ✅ Real-time email detection
+- ✅ Automatic categorization (WORK/PERSONAL/ADMIN)
+- ✅ Google Sheets logging
+- ⏳ Conditional routing (in progress)
 
-## Estado
-✅ FASE 1: Captura básica funcionando
-⏳ FASE 2: Condicionales (WORK/PERSONAL/ADMIN) - en progreso
+## Tech Stack
+- **Automation**: Make.com
+- **Email**: Gmail API
+- **Database**: Google Sheets
+- **Integration**: REST APIs
 
-## Tech
-Make.com + Gmail + Google Sheets
+## How It Works
+[Diagram or step-by-step]
+
+## Status
+Phase 1: Basic capture ✅
+Phase 2: Categorization (tonight)
+
+## Author
+Gerardo López - AI Automation Portfolio
